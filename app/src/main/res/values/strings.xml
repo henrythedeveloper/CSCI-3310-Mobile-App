@@ -7,4 +7,11 @@
     <string name="desc_stop_button">Stop Navigation</string>
     <string name="desc_building_image">Building Image</string>
     <string name="desc_directions_icon">Turn Direction Icon</string>
+
+    <!-- Accessibility Fragment Strings -->
+    <string name="default_access_title">Accessible Entrance</string>
+    <string name="default_access_category">Category Name</string>
+    <string name="action_close">Close</string>
+    <string name="action_go_here">GO HERE</string>
+    <string name="desc_sort_icon">Sort by Category</string>
 </resources>

@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- THE MAP -->
-    <fragment
+
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
@@ -32,10 +32,12 @@
             android:paddingStart="12dp"
             android:paddingEnd="4dp">
 
+            <!-- contentDescription -->
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@android:drawable/ic_menu_sort_by_size"
+                android:contentDescription="@string/desc_sort_icon"
                 app:tint="@color/uc_black"/>
 
             <Spinner
@@ -65,46 +67,53 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+
             <TextView
                 android:id="@+id/loc_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Accessible Entrance"
+                android:text="@string/default_access_title"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/uc_black"/>
+
 
             <TextView
                 android:id="@+id/loc_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Category Name"
+                android:text="@string/default_access_category"
                 android:textSize="14sp"
                 android:textColor="@color/uc_dark_gray"
                 android:layout_marginTop="4dp"
                 android:layout_marginBottom="16dp"/>
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
                 android:orientation="horizontal">
+
 
                 <Button
                     android:id="@+id/btn_close_card"
-                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:text="Close"
+                    android:text="@string/action_close"
                     android:textColor="@color/uc_black"
                     android:layout_marginEnd="8dp"/>
 
+
                 <Button
                     android:id="@+id/btn_go_here"
+                    style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:text="GO HERE"
+                    android:text="@string/action_go_here"
                     android:textStyle="bold"
                     android:backgroundTint="@color/uc_gold"
                     android:textColor="@color/uc_black"/>
