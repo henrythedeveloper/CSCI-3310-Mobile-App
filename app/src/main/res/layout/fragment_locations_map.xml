@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
@@ -31,10 +31,12 @@
             android:paddingStart="12dp"
             android:paddingEnd="4dp">
 
+            <!-- FIXED: Added contentDescription -->
             <ImageView
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@android:drawable/ic_menu_sort_by_size"
+                android:contentDescription="@string/desc_sort_icon"
                 app:tint="@color/uc_black"/>
 
             <!-- The Spinner -->
@@ -48,7 +50,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- LOCATION DETAIL CARD (Same as before) -->
+    <!-- LOCATION DETAIL CARD -->
     <androidx.cardview.widget.CardView
         android:id="@+id/location_card"
         android:layout_width="match_parent"
@@ -70,6 +72,7 @@
                 android:layout_height="180dp"
                 android:scaleType="centerCrop"
                 android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/desc_building_image"
                 android:background="#EEEEEE"/>
 
             <LinearLayout
@@ -82,7 +85,7 @@
                     android:id="@+id/loc_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Building Name"
+                    android:text="@string/placeholder_building_name"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     android:textColor="@color/uc_black"/>
@@ -91,7 +94,7 @@
                     android:id="@+id/loc_address"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Address"
+                    android:text="@string/placeholder_address"
                     android:textSize="14sp"
                     android:textColor="@color/uc_dark_gray"
                     android:layout_marginBottom="8dp"/>
@@ -100,7 +103,7 @@
                     android:id="@+id/loc_desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Description..."
+                    android:text="@string/placeholder_description"
                     android:maxLines="3"
                     android:ellipsize="end"
                     android:textSize="14sp"
@@ -110,24 +113,26 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="?android:attr/buttonBarStyle"
                     android:orientation="horizontal">
 
                     <Button
                         android:id="@+id/btn_close_card"
-                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        style="?android:attr/buttonBarButtonStyle"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="Close"
+                        android:text="@string/action_close"
                         android:textColor="@color/uc_black"
                         android:layout_marginEnd="8dp"/>
 
                     <Button
                         android:id="@+id/btn_go_here"
+                        style="?android:attr/buttonBarButtonStyle"
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:text="GO HERE"
+                        android:text="@string/action_go_here"
                         android:textStyle="bold"
                         android:backgroundTint="@color/uc_gold"
                         android:textColor="@color/uc_black"/>

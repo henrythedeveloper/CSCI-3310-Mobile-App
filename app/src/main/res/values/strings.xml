@@ -19,4 +19,10 @@
     <string name="desc_start_nav_button">Start Navigation</string>
     <string name="placeholder_time_dist">12 min (0.5 mi)</string>
 
+    <!-- Locations Fragment Placeholders -->
+    <string name="placeholder_building_name">Building Name</string>
+    <string name="placeholder_address">Address</string>
+    <string name="placeholder_description">Description goes here</string>
+
+
 </resources>
