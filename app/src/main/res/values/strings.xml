@@ -14,4 +14,9 @@
     <string name="action_close">Close</string>
     <string name="action_go_here">GO HERE</string>
     <string name="desc_sort_icon">Sort by Category</string>
+
+    <string name="hint_where_to">Where to?</string>
+    <string name="desc_start_nav_button">Start Navigation</string>
+    <string name="placeholder_time_dist">12 min (0.5 mi)</string>
+
 </resources>

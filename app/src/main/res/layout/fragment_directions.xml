@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- THE MAP (Takes up whole screen, list overlays it) -->
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/directions_map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
@@ -35,6 +34,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_search"
+                android:contentDescription="@string/desc_search_icon"
                 app:tint="@color/uc_dark_gray" />
 
             <AutoCompleteTextView
@@ -43,11 +43,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@null"
-                android:hint="Where to?"
+                android:hint="@string/hint_where_to"
                 android:textColor="@color/uc_black"
                 android:textColorHint="#999999"
                 android:singleLine="true"
                 android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:inputType="text" />
 
             <ImageButton
@@ -56,6 +57,7 @@
                 android:layout_height="40dp"
                 android:background="@drawable/circle_gold_bg"
                 android:src="@android:drawable/ic_media_play"
+                android:contentDescription="@string/desc_start_nav_button"
                 app:tint="@color/uc_black"
                 android:padding="8dp"
                 android:scaleType="fitCenter"/>
@@ -92,7 +94,7 @@
                 android:id="@+id/txt_total_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="12 min (0.5 mi)"
+                android:text="@string/placeholder_time_dist"
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textColor="@color/uc_gold"
