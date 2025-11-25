@@ -18,13 +18,14 @@ public class CampusLocation {
     public String getDescription() { return description; }
     public double getLatitude() { return latitude; }
     public double getLongitude() { return longitude; }
+    public String getWebsite() { return website; }
     public String getImageFileName() {
+        if (id == null) return "ic_launcher.png";
         // Handle specific exceptions
-        if (id.equals("LM")) return "Los_molinos.png";
-        if (id.equals("SHS")) return "SpringHill.png";
-        if (id.equals("TPG")) return "Tivoli_garage.png";
-        if (id.equals("5G")) return "5th_street_garage.png";
-        if (id.equals("7S")) return "7th_street_garage.png";
+        if (id.equals("LM")) return "Los_Molinos.png";
+        if (id.equals("TPG")) return "Tivoli_Garage.png";
+        if (id.equals("5G")) return "5th_Street_Garage.png";
+        if (id.equals("7S")) return "7th_Street_Garage.png";
 
         // Default: Use building code (e.g., "AL.png")
         return id + ".png";
