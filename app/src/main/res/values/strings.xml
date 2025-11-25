@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">CSCI-3310-Nav</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">UCDenver Nav</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="desc_search_icon">Search Icon</string>
+    <string name="desc_go_button">Start Navigation</string>
+    <string name="desc_stop_button">Stop Navigation</string>
+    <string name="desc_building_image">Building Image</string>
+    <string name="desc_directions_icon">Turn Direction Icon</string>
 </resources>

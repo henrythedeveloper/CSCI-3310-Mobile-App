@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Selected State: GOLD -->
+    <item android:color="@color/uc_gold" android:state_checked="true" />
+
+    <!-- Default State: WHITE -->
+    <item android:color="@color/white" android:state_checked="false" />
+</selector>

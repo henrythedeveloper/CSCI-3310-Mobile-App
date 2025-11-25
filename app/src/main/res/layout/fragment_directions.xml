@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- THE MAP (Takes up whole screen, list overlays it) -->
+    <fragment
+        android:id="@+id/directions_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/directions_list_card"/>
+
+    <!-- SEARCH BAR (Floating Top) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/search_card"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:layout_alignParentTop="true"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_search"
+                app:tint="@color/uc_dark_gray" />
+
+            <AutoCompleteTextView
+                android:id="@+id/search_box"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="Where to?"
+                android:textColor="@color/uc_black"
+                android:textColorHint="#999999"
+                android:singleLine="true"
+                android:paddingStart="12dp"
+                android:inputType="text" />
+
+            <ImageButton
+                android:id="@+id/btn_go"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle_gold_bg"
+                android:src="@android:drawable/ic_media_play"
+                app:tint="@color/uc_black"
+                android:padding="8dp"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- DIRECTIONS LIST CONTAINER (Hidden initially) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/directions_list_card"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:visibility="gone"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="16dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Header / Handle -->
+            <View
+                android:layout_width="40dp"
+                android:layout_height="4dp"
+                android:background="#DDDDDD"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/txt_total_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12 min (0.5 mi)"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/uc_gold"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_steps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,412 @@
+[
+  {
+    "id": "AL",
+    "name": "Auraria Library",
+    "category": "Library",
+    "address": "1100 Lawrence St, Denver, CO 80204",
+    "latitude": 39.74361286074634,
+    "longitude": -105.00308658895126,
+    "description": "The Auraria Library is located in downtown Denver, and serves the students, faculty, and staff of three leading urban institutions. We strive to create a welcoming environment that fosters equity, diversity, and inclusion.",
+    "website": "https://library.auraria.edu"
+  },
+  {
+    "id": "NA",
+    "name": "1015 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1015 9th Street, Denver, CO 80204",
+    "latitude": 39.741590767724425,
+    "longitude": -105.00321903128022,
+    "description": "CU Denver English Department Building. The Knight House was built in 1885 by Charles and Betsey Davis. It is considered one of the most perfectly proportioned Victorian houses in Denver.",
+    "website": ""
+  },
+  {
+    "id": "NB",
+    "name": "1020 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1020 9th Street, Denver, CO 80204",
+    "latitude": 39.74137296819377,
+    "longitude": -105.00386658710252,
+    "description": "Shared Building - Casa Mayan. One of the oldest two houses on the block, built circa 1872 by William Smedley. Later became one of the city's first Hispanic operated Mexican restaurants.",
+    "website": ""
+  },
+  {
+    "id": "ND",
+    "name": "1024 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1024 9th Street, Denver, CO 80204",
+    "latitude": 39.74155661609631,
+    "longitude": -105.00397047360917,
+    "description": "MSUD ROTC Building. Built in 1875, this graceful villa was the home of Oscar and Cordelia Room until 1903. Features roofline iron cresting.",
+    "website": ""
+  },
+  {
+    "id": "NE",
+    "name": "1027 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1027 9th Street, Denver, CO 80204",
+    "latitude": 39.74172276701515,
+    "longitude": -105.0034949177868,
+    "description": "AHEC Marketing Office. The towered and crested With House was built circa 1883. Spacious rooms and the decorative tower make this a favorite of visitors.",
+    "website": ""
+  },
+  {
+    "id": "NF",
+    "name": "1033 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1033 9th Street, Denver, CO 80204",
+    "latitude": 39.741829466313085,
+    "longitude": -105.00348937360911,
+    "description": "MSUD Honors Building. Built in 1873 by carpenter Jeremiah Gardner in the stick style. One of only two frame structures in the block.",
+    "website": ""
+  },
+  {
+    "id": "NG",
+    "name": "1041 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1041 9th Street, Denver, CO 80204",
+    "latitude": 39.74182261836395,
+    "longitude": -105.00360187360913,
+    "description": "Shared Building - Faculty Club. Probably built circa 1880, this brick bay front is a variance on the Italianate style.",
+    "website": ""
+  },
+  {
+    "id": "NH",
+    "name": "1045 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1045 9th Street, Denver, CO 80204",
+    "latitude": 39.74198216495677,
+    "longitude": -105.00364054477355,
+    "description": "MSUD OWOW. Built in 1890 for William Schultz. The only double on the block.",
+    "website": ""
+  },
+  {
+    "id": "NI",
+    "name": "1047 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1047 9th Street, Denver, CO 80204",
+    "latitude": 39.741949266951856,
+    "longitude": -105.00369383128013,
+    "description": "CU Denver UHL. Built in 1890 for William Schultz. The only double on the block.",
+    "website": ""
+  },
+  {
+    "id": "NJ",
+    "name": "1050 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1050 9th Street, Denver, CO 80204",
+    "latitude": 39.741910159646125,
+    "longitude": -105.00371601122052,
+    "description": "CU Denver English Department Building. Charming brick one-story cottage built circa 1875. Possibly the oldest brick residence left standing in the community.",
+    "website": ""
+  },
+  {
+    "id": "NK",
+    "name": "1051 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1051 9th Street, Denver, CO 80204",
+    "latitude": 39.741910159646125,
+    "longitude": -105.00371601122052,
+    "description": "CU Denver English Department. Built in 1903 by Thomas Young. Typical classic cottage style with central dormer window.",
+    "website": ""
+  },
+  {
+    "id": "NL",
+    "name": "1056 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1056 9th Street, Denver, CO 80204",
+    "latitude": 39.741784919333405,
+    "longitude": -105.00424705826696,
+    "description": "AHEC Planning Department Offices. A classic cottage characterized by its hip roof and central dormer window.",
+    "website": ""
+  },
+  {
+    "id": "NM",
+    "name": "1059 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1059 9th Street, Denver, CO 80204",
+    "latitude": 39.7421493152107,
+    "longitude": -105.00370128710257,
+    "description": "CU Denver English Department. Built in 1880, this mansard structure has impressive architectural credentials. Remodeled by Frank Edbrooke.",
+    "website": ""
+  },
+  {
+    "id": "NN",
+    "name": "1061 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1061 9th Street, Denver, CO 80204",
+    "latitude": 39.74213706760701,
+    "longitude": -105.00378825826688,
+    "description": "English Dept. Probably built around 1874. Simplest of the Italianate on Ninth Street.",
+    "website": ""
+  },
+  {
+    "id": "NO",
+    "name": "1068 - 9th Street Park",
+    "category": "Museum and Historical",
+    "address": "1068 9th Street, Denver, CO 80204",
+    "latitude": 39.741955167911875,
+    "longitude": -105.00439037360914,
+    "description": "AHEC Executive Team Offices. Italianate villa built by miller Charles R. Davis circa 1873. One of the two oldest residences on the block.",
+    "website": ""
+  },
+  {
+    "id": "LM",
+    "name": "Los Molinos",
+    "category": "Dining / Historical",
+    "address": "906 Curtis Street, Denver, CO 80204",
+    "latitude": 39.74211453127847,
+    "longitude": -105.00394376240992,
+    "description": "The one commercial structure on the block, built in 1906. Now serves as the Auraria Campus restaurant Los Molinos.",
+    "website": "https://www.losmolinosrestaurante.com/"
+  },
+  {
+    "id": "EG",
+    "name": "Emmanuel Gallery",
+    "category": "Museum and Historical",
+    "address": "1205 10th St Plaza, Denver, CO 80204",
+    "latitude": 39.74426045888514,
+    "longitude": -105.00385603128008,
+    "description": "Since 1973, The Emmanuel Art Gallery exhibits the work of exceptional artists from around the world and Colorado.",
+    "website": "https://www.emmanuelgallery.org/"
+  },
+  {
+    "id": "GM",
+    "name": "Golda Meir House",
+    "category": "Museum and Historical",
+    "address": "1148 9th Street, Denver, CO 80204",
+    "latitude": 39.74269552109383,
+    "longitude": -105.00496782023573,
+    "description": "The Golda Meir House Museum on the Auraria Campus is her only known U.S. residence. It celebrates a theme inspired by Golda's life.",
+    "website": "https://www.ahec.edu/auraria/golda-meir-house"
+  },
+  {
+    "id": "SA",
+    "name": "St. Cajetan's Center",
+    "category": "Museum and Historical",
+    "address": "1190 9th Street Denver, CO 80204",
+    "latitude": 39.74465306225515,
+    "longitude": -105.00604340059577,
+    "description": "Built in 1926 as a church for Spanish-speaking Roman Catholics. Now serves as a multi-purpose auditorium.",
+    "website": "https://stcajetanparish.com/"
+  },
+  {
+    "id": "SE",
+    "name": "St. Elizabeth's Church",
+    "category": "Museum and Historical",
+    "address": "1060 St Francis Way, Denver, CO 80204",
+    "latitude": 39.74263653707667,
+    "longitude": -105.00221325475341,
+    "description": "A vibrant urban faith community located on the Auraria Higher Education Campus.",
+    "website": "http://stelizabethdenver.org/"
+  },
+  {
+    "id": "KC",
+    "name": "King Center",
+    "category": "Performance Venues",
+    "address": "855 Lawrence Way, Denver, CO 80204",
+    "latitude": 39.74394971025258,
+    "longitude": -105.00605925826683,
+    "description": "A modern performing arts complex with over 180,000 square feet dedicated to education and development in performing arts.",
+    "website": ""
+  },
+  {
+    "id": "DWC",
+    "name": "Lola & Rob Salazar Student Wellness Center",
+    "category": "Wellness and Recreation",
+    "address": "1355 12th St, Denver, CO 80204",
+    "latitude": 39.74717770828719,
+    "longitude": -105.00315600244444,
+    "description": "Features three levels of unique and flexible spaces including gym courts, spa, and study rooms.",
+    "website": "https://www.ucdenver.edu/wellness/facilities"
+  },
+  {
+    "id": "5G",
+    "name": "5th Street Garage",
+    "category": "Parking",
+    "address": "650 Walnut St, Denver, CO 80204",
+    "latitude": 39.7433636102552,
+    "longitude": -105.01043033128016,
+    "description": "Campus Parking Garage.",
+    "website": ""
+  },
+  {
+    "id": "HUB",
+    "name": "5th Street Hub",
+    "category": "Academic & Administrative",
+    "address": "1224 5th St, Denver, CO 80204",
+    "latitude": 39.7417386665523,
+    "longitude": -105.0103170024447,
+    "description": "Home to the College of Engineering, Design and Computing machine shop and Capstone Design projects.",
+    "website": "https://engineering.ucdenver.edu/current-students/hub"
+  },
+  {
+    "id": "7S",
+    "name": "7th Street Garage",
+    "category": "Parking",
+    "address": "799 Lawrence Way, Denver, CO 80204",
+    "latitude": 39.743504614884536,
+    "longitude": -105.007544933129,
+    "description": "Parking and Transportation Services. Parking lots are open to students, faculty and campus visitors.",
+    "website": "https://www.ahec.edu/services-departments/parking/parking-lot-options"
+  },
+  {
+    "id": "AR",
+    "name": "Arts Building",
+    "category": "Academic & Administrative",
+    "address": "1150 10th St Plaza, Denver, CO 80204",
+    "latitude": 39.74294451589033,
+    "longitude": -105.00411927545785,
+    "description": "Home to the College of Arts & Media. Features classrooms, recording studios, and the Department of Visual Arts.",
+    "website": "https://calendar.ucdenver.edu/arts_building"
+  },
+  {
+    "id": "ELC",
+    "name": "Auraria Early Learning Center",
+    "category": "Academic & Administrative",
+    "address": "950 9th Street, Denver, CO 80204",
+    "latitude": 39.74084296977628,
+    "longitude": -105.00368697360908,
+    "description": "Provides exceptional care and education for children. 5-star Colorado Shines-rated center.",
+    "website": "https://www.ahec.edu/services-departments/early-learning-center"
+  },
+  {
+    "id": "BUS",
+    "name": "Business School",
+    "category": "Academic & Administrative",
+    "address": "1475 Lawrence St, Denver, CO 80202",
+    "latitude": 39.747587358470646,
+    "longitude": -104.99830431778669,
+    "description": "Hub of innovation, collaboration and discovery. Largest accredited graduate school of business in the Rocky Mountain region.",
+    "website": "https://business.ucdenver.edu"
+  },
+  {
+    "id": "CU",
+    "name": "CU Denver Building",
+    "category": "Academic & Administrative",
+    "address": "1250 14th St, Denver, CO 80202",
+    "latitude": 39.746826454793684,
+    "longitude": -104.99964153128006,
+    "description": "Home to the College of Architecture and Planning. Contains 3-D digital animation labs.",
+    "website": "https://calendar.ucdenver.edu/cu_denver_building"
+  },
+  {
+    "id": "LW",
+    "name": "Lawrence Street Center",
+    "category": "Academic & Administrative",
+    "address": "1380 Lawrence St, Denver, CO 80204",
+    "latitude": 39.74621975774821,
+    "longitude": -104.99919394477354,
+    "description": "Home to the School of Public Affairs, Graduate School, and School of Education & Human Development.",
+    "website": "https://calendar.ucdenver.edu/lawrence_street_center_lsc"
+  },
+  {
+    "id": "NC",
+    "name": "North Classroom",
+    "category": "Academic & Administrative",
+    "address": "1200 Larimer St, Denver, CO 80204",
+    "latitude": 39.744916965354115,
+    "longitude": -105.00272183128007,
+    "description": "One of the largest buildings on campus. Home to College of Engineering, Psychology, and more.",
+    "website": "https://calendar.ucdenver.edu/north_classroom"
+  },
+  {
+    "id": "PE",
+    "name": "PE/Event Center",
+    "category": "Wellness and Recreation",
+    "address": "1255 10th St Plaza, Denver, CO 80204",
+    "latitude": 39.74470966792568,
+    "longitude": -105.00439983128011,
+    "description": "Home of Campus Recreation at Auraria and the Outdoor Recreation Center.",
+    "website": ""
+  },
+  {
+    "id": "PL",
+    "name": "Plaza Building",
+    "category": "Academic & Administrative",
+    "address": "955 Lawrence Way, Denver, CO 80204",
+    "latitude": 39.74423576202408,
+    "longitude": -105.00534123312896,
+    "description": "Houses the Health Center at Auraria and Dept of Modern Languages.",
+    "website": "https://calendar.ucdenver.edu/plaza_building"
+  },
+  {
+    "id": "SI",
+    "name": "Science Building",
+    "category": "Academic & Administrative",
+    "address": "1151 Arapahoe Street, Denver, CO 80204",
+    "latitude": 39.74408736135284,
+    "longitude": -105.00161516011562,
+    "description": "Houses state-of-the-art labs and classrooms for Anthropology, Math, Biology, and Chemistry.",
+    "website": "https://calendar.ucdenver.edu/science_building"
+  },
+  {
+    "id": "ACAD",
+    "name": "Student Commons",
+    "category": "Academic & Administrative",
+    "address": "1201 Larimer St, Denver, CO 80204",
+    "latitude": 39.74668525513147,
+    "longitude": -105.00213704477338,
+    "description": "Devoted solely to students' education and success. Contains most student service operations.",
+    "website": "https://calendar.ucdenver.edu/student_common_building"
+  },
+  {
+    "id": "SSB",
+    "name": "Student Success Building",
+    "category": "Academic & Administrative",
+    "address": "890 Auraria Pkwy, Denver, CO 80204",
+    "latitude": 39.745514655281454,
+    "longitude": -105.00766450244447,
+    "description": "Student Success Building.",
+    "website": ""
+  },
+  {
+    "id": "TPG",
+    "name": "Tivoli Parking Garage",
+    "category": "Parking",
+    "address": "901 Walnut St, Denver, CO 80204",
+    "latitude": 39.74625865917913,
+    "longitude": -105.00630196011555,
+    "description": "Parking Garage for Tivoli.",
+    "website": ""
+  },
+  {
+    "id": "TV",
+    "name": "Tivoli Student Union",
+    "category": "Academic & Administrative",
+    "address": "900 Auraria Pkwy, Denver, CO 80204",
+    "latitude": 39.74522585989043,
+    "longitude": -105.00596527360896,
+    "description": "Built in 1866 as a brewery. Now serves as the student union.",
+    "website": "https://www.ahec.edu/shared-campus-services-resources/tivoli-student-union/"
+  },
+  {
+    "id": "WC",
+    "name": "West Classroom",
+    "category": "Academic & Administrative",
+    "address": "1050 10th St Plaza, Denver, CO 80204",
+    "latitude": 39.74203941551333,
+    "longitude": -105.00295388895128,
+    "description": "West Classroom Building.",
+    "website": ""
+  },
+  {
+    "id": "RH1",
+    "name": "City Heights Residence Hall / Learning Commons",
+    "category": "Housing",
+    "address": "1191 Larimer St, Denver, CO 80204",
+    "latitude": 39.746488296290806,
+    "longitude": -105.00424421408907,
+    "description": "Affordable housing option that doubles as a central hub for academic enrichment. Known as City Heights / Learning Commons.",
+    "website": "https://www.ucdenver.edu/housing-and-dining/city-heights"
+  },
+  {
+    "id": "RH2",
+    "name": "Lynx Crossing",
+    "category": "Housing",
+    "address": "318 Walnut St, Denver, CO 80204",
+    "latitude": 39.74278706514631,
+    "longitude": -105.01226956011575,
+    "description": "Furnished apartment-style units including a full kitchen or kitchenette in every unit.",
+    "website": "https://www.ucdenver.edu/housing-and-dining/lynx-crossing"
+  }
+]
