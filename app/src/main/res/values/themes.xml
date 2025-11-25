@@ -1,4 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.CSCI_3310_Final_Project" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color (Black) -->
@@ -18,11 +19,5 @@
 
         <!-- Default Background -->
         <item name="android:windowBackground">@color/uc_light_gray</item>
-    </style>
-
-    <!-- Style for the "Outlined" text inputs used in Search -->
-    <style name="Widget.MaterialComponents.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="boxStrokeColor">@color/uc_gold</item>
-        <item name="hintTextColor">@color/uc_dark_gray</item>
     </style>
 </resources>
